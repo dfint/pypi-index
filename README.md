@@ -12,3 +12,4 @@ Using poetry:
 poetry source add --priority=explicit dfint https://dfint.github.io/pypi-index/
 poetry add --source=dfint df-gettext-toolkit
 ```
+Reference: [PEP 503](https://peps.python.org/pep-0503/)
