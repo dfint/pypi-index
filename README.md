@@ -1,4 +1,4 @@
-# pypi-index
+# Dwarf Fortress localization project Python package index
 
 View the index: https://dfint.github.io/pypi-index/
 
