@@ -1,2 +1,3 @@
 - [df-gettext-toolkit](df-gettext-toolkit/)
+- [peclasses](peclasses/)
 - [viscii-codec](viscii-codec/)
