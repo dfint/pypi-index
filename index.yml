@@ -1,0 +1,15 @@
+df-gettext-toolkit:
+  - name: df_gettext_toolkit-0.6.3-py3-none-any.whl
+    url: https://github.com/dfint/df-gettext-toolkit/releases/download/0.6.3/df_gettext_toolkit-0.6.3-py3-none-any.whl
+  - name: df_gettext_toolkit-0.6.4-py3-none-any.whl
+    url: https://github.com/dfint/df-gettext-toolkit/releases/download/0.6.4/df_gettext_toolkit-0.6.4-py3-none-any.whl
+  - name: df_gettext_toolkit-0.6.5-py3-none-any.whl
+    url: https://github.com/dfint/df-gettext-toolkit/releases/download/0.6.5/df_gettext_toolkit-0.6.5-py3-none-any.whl
+  - name: df_gettext_toolkit-0.6.6-py3-none-any.whl
+    url: https://github.com/dfint/df-gettext-toolkit/releases/download/0.6.6/df_gettext_toolkit-0.6.6-py3-none-any.whl
+peclasses:
+  - name: peclasses-0.4.0-py3-none-any.whl
+    url: https://github.com/dfint/peclasses/releases/download/0.4.0/peclasses-0.4.0-py3-none-any.whl
+viscii-codec:
+  - name: viscii_codec-0.1.0-py3-none-any.whl
+    url: https://github.com/dfint/viscii_codec/releases/download/0.1.0/viscii_codec-0.1.0-py3-none-any.whl
