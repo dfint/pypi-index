@@ -2,3 +2,4 @@
 - [df-translation-toolkit](df-translation-toolkit/)
 - [peclasses](peclasses/)
 - [viscii-codec](viscii-codec/)
+- [alternative-encodings](alternative-encodings/)
