@@ -1,5 +1,7 @@
 # Dwarf Fortress localization project Python package index
 
+The index is build from the [index.yml](index.yml) file.
+
 View the index: https://dfint.github.io/pypi-index/
 
 Installation of a package from the index:
