@@ -23,8 +23,13 @@ def main():
     env = Environment(loader=FileSystemLoader(settings.templates))
     template = env.get_template('index.html')
     
-    with open(settings.output / "index.html", "wt") as index_file:
+    with open(settings.output / "index.html", "w") as index_file:
         index_file.write(template.render(index=index_data.keys()))
+    
+    template = env.get_template('package.html')
+    for name, entries in index_data.items():
+        with open(settings.output / f"{name}.html", "w") as package_file:
+            package_file.write(template.render(data=entries))
 
 
 if __name__ == "__main__":
