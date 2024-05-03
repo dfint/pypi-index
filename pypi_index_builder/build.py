@@ -19,6 +19,8 @@ def main():
     env = Environment(loader=FileSystemLoader(settings.templates))
     template = env.get_template("index.html")
 
+    settings.output.mkdir(parents=True, exist_ok=True)
+
     with open(settings.output / "index.html", "w") as index_file:
         index_file.write(template.render(index=index_data.keys()))
 
