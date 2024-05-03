@@ -33,6 +33,10 @@ jobs:
       run: poetry install --no-interaction
 
     - name: Build html files
+      env:
+        INDEX: index.yml
+        TEMPLATES: templates
+        OUTPUT: build
       run: |
         poetry run python -m pypi_index_builder.build
         touch build/.nojekyll
