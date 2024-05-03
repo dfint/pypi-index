@@ -26,7 +26,8 @@ def main():
 
     template = env.get_template("package.html")
     for name, entries in index_data.items():
-        with open(settings.output / f"{name}.html", "w") as package_file:
+        (settings.output / name).mkdir(exist_ok=True)
+        with open(settings.output / name / "index.html", "w") as package_file:
             package_file.write(template.render(data=entries))
 
 
