@@ -1,13 +1,16 @@
+from loguru import logger
 from typer import Typer
 
+from pypi_index_builder.settings import Settings
 
 app = Typer()
 
 
-@app.command()
+@logger.catch()
 def main():
-    pass
+    settings = Settings()
+    print(settings)
 
 
 if __name__ == "__main__":
-    app()
+    main()
