@@ -7,7 +7,7 @@ on:
       - main
     paths:
       - '.github/workflows/build.yml'
-      - '*.py'
+      - '**.py'
       - 'index.yml'
 
 permissions:
