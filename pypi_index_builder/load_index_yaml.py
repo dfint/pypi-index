@@ -17,7 +17,7 @@ class IndexInfo(RootModel):
     root: dict[str, list[IndexEntry]]
 
 
-def load_index(path: Path):
+def load_index(path: Path) -> dict[str, list[IndexEntry]]:
     with open(path) as config_file:
         yaml = strictyaml.load(config_file.read())
-        return IndexInfo.model_validate(yaml.data)
+        return IndexInfo.model_validate(yaml.data).root
