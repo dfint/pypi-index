@@ -3,7 +3,7 @@ from loguru import logger
 from pydantic import ValidationError
 from typer import Typer
 
-from pypi_index_builder.load_index_yaml import load_index
+from pypi_index_builder.load_index import load_index
 from pypi_index_builder.settings import Settings
 
 app = Typer()
