@@ -1,12 +1,9 @@
 from jinja2 import Environment, FileSystemLoader
 from loguru import logger
 from pydantic import ValidationError
-from typer import Typer
 
 from pypi_index_builder.load_index import load_index
 from pypi_index_builder.settings import Settings
-
-app = Typer()
 
 
 @logger.catch()
