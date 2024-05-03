@@ -1,21 +1,21 @@
+alternative-encodings:
+  - url: https://github.com/dfint/alternative-encodings/releases/download/0.1.0/alternative_encodings-0.1.0-py3-none-any.whl
+  - url: https://github.com/dfint/alternative-encodings/releases/download/0.2.0/alternative_encodings-0.2.0-py3-none-any.whl
+  - url: https://github.com/dfint/alternative-encodings/releases/download/0.2.2/alternative_encodings-0.2.2-py3-none-any.whl
+  - url: https://github.com/dfint/alternative-encodings/releases/download/0.2.3/alternative_encodings-0.2.3-py3-none-any.whl
+
 df-gettext-toolkit:
-  - name: df_gettext_toolkit-0.6.3-py3-none-any.whl
-    url: https://github.com/dfint/df-gettext-toolkit/releases/download/0.6.3/df_gettext_toolkit-0.6.3-py3-none-any.whl
-  - name: df_gettext_toolkit-0.6.4-py3-none-any.whl
-    url: https://github.com/dfint/df-gettext-toolkit/releases/download/0.6.4/df_gettext_toolkit-0.6.4-py3-none-any.whl
-  - name: df_gettext_toolkit-0.6.5-py3-none-any.whl
-    url: https://github.com/dfint/df-gettext-toolkit/releases/download/0.6.5/df_gettext_toolkit-0.6.5-py3-none-any.whl
-  - name: df_gettext_toolkit-0.6.6-py3-none-any.whl
-    url: https://github.com/dfint/df-gettext-toolkit/releases/download/0.6.6/df_gettext_toolkit-0.6.6-py3-none-any.whl
+  - url: https://github.com/dfint/df-gettext-toolkit/releases/download/0.6.3/df_gettext_toolkit-0.6.3-py3-none-any.whl
+  - url: https://github.com/dfint/df-gettext-toolkit/releases/download/0.6.4/df_gettext_toolkit-0.6.4-py3-none-any.whl
+  - url: https://github.com/dfint/df-gettext-toolkit/releases/download/0.6.5/df_gettext_toolkit-0.6.5-py3-none-any.whl
+  - url: https://github.com/dfint/df-gettext-toolkit/releases/download/0.6.6/df_gettext_toolkit-0.6.6-py3-none-any.whl
 
 df-translation-toolkit:
-  - name: df_translation_toolkit-0.6.7-py3-none-any.whl
-    url: https://github.com/dfint/df-gettext-toolkit/releases/download/0.6.7/df_gettext_toolkit-0.6.7-py3-none-any.whl
+  - url: https://github.com/dfint/df-translation-toolkit/releases/download/0.6.7/df_translation_toolkit-0.6.7-py3-none-any.whl
+  - url: https://github.com/dfint/df-translation-toolkit/releases/download/0.6.8/df_translation_toolkit-0.6.8-py3-none-any.whl
 
 peclasses:
-  - name: peclasses-0.4.0-py3-none-any.whl
-    url: https://github.com/dfint/peclasses/releases/download/0.4.0/peclasses-0.4.0-py3-none-any.whl
+  - url: https://github.com/dfint/peclasses/releases/download/0.4.0/peclasses-0.4.0-py3-none-any.whl
 
 viscii-codec:
-  - name: viscii_codec-0.1.0-py3-none-any.whl
-    url: https://github.com/dfint/viscii_codec/releases/download/0.1.0/viscii_codec-0.1.0-py3-none-any.whl
+  - url: https://github.com/dfint/viscii_codec/releases/download/0.1.0/viscii_codec-0.1.0-py3-none-any.whl
