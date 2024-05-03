@@ -1,12 +1,13 @@
 from pathlib import Path
-from pydantic import BaseModel, RootModel
+
 import strictyaml
+from pydantic import BaseModel, RootModel
 
 
 class IndexEntry(BaseModel):
     name: str | None = None
     url: str
-    
+
     def model_post_init(self, __context):
         if not self.name:
             # Get file name from url
