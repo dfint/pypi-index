@@ -17,6 +17,7 @@ df-translation-toolkit:
   - url: https://github.com/dfint/df-translation-toolkit/releases/download/0.6.7/df_translation_toolkit-0.6.7-py3-none-any.whl
   - url: https://github.com/dfint/df-translation-toolkit/releases/download/0.6.8/df_translation_toolkit-0.6.8-py3-none-any.whl
   - url: https://github.com/dfint/df-translation-toolkit/releases/download/0.6.9/df_translation_toolkit-0.6.9-py3-none-any.whl
+  - url: https://github.com/dfint/df-translation-toolkit/releases/download/0.7.0/df_translation_toolkit-0.7.0-py3-none-any.whl
 
 peclasses:
   - url: https://github.com/dfint/peclasses/releases/download/0.4.0/peclasses-0.4.0-py3-none-any.whl
