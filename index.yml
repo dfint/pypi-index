@@ -4,6 +4,7 @@ alternative-encodings:
   - url: https://github.com/dfint/alternative-encodings/releases/download/0.2.2/alternative_encodings-0.2.2-py3-none-any.whl
   - url: https://github.com/dfint/alternative-encodings/releases/download/0.2.3/alternative_encodings-0.2.3-py3-none-any.whl
   - url: https://github.com/dfint/alternative-encodings/releases/download/0.3.0/alternative_encodings-0.3.0-py3-none-any.whl
+  - url: https://github.com/dfint/alternative-encodings/releases/download/0.3.1/alternative_encodings-0.3.1-py3-none-any.whl
 
 dfint64-patch:
   - url: https://github.com/dfint/dfint64_patch/releases/download/0.1.0/dfint64_patch-0.1.0-py3-none-any.whl
