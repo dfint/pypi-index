@@ -9,6 +9,8 @@ on:
       - '.github/workflows/build.yml'
       - '**.py'
       - 'index.yml'
+      - 'pyproject.toml'
+      - 'poetry.lock'
 
   pull_request:
     branches:
@@ -17,6 +19,8 @@ on:
       - '.github/workflows/build.yml'
       - '**.py'
       - 'index.yml'
+      - 'pyproject.toml'
+      - 'poetry.lock'
 
 permissions:
   contents: write
