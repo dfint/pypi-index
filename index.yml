@@ -8,6 +8,7 @@ alternative-encodings:
 
 dfint64-patch:
   - url: https://github.com/dfint/dfint64_patch/releases/download/0.1.0/dfint64_patch-0.1.0-py3-none-any.whl
+  - url: https://github.com/dfint/dfint64_patch/releases/download/0.2.0/dfint64_patch-0.2.0-py3-none-any.whl
 
 df-gettext-toolkit:
   - url: https://github.com/dfint/df-gettext-toolkit/releases/download/0.6.3/df_gettext_toolkit-0.6.3-py3-none-any.whl
