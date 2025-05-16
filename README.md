@@ -7,18 +7,18 @@ View the index: <https://dfint.github.io/pypi-index/>
 Installation of a package from the index:
 
 ```shell
-pip install df-translation-toolkit --extra-index-url https://dfint.github.io/pypi-index/
+pip install package-name --extra-index-url https://dfint.github.io/pypi-index/
 ```
 
 Using poetry:
 
 ```shell
 poetry source add --priority=explicit dfint https://dfint.github.io/pypi-index/
-poetry add --source=dfint df-translation-toolkit
+poetry add --source=dfint package-name
 ```
 
 Using uv:
 
 ```shell
-uv add df-translation-toolkit --index dfint=https://dfint.github.io/pypi-index/
+uv add package-name --index dfint=https://dfint.github.io/pypi-index/
 ```
