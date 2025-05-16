@@ -16,3 +16,9 @@ Using poetry:
 poetry source add --priority=explicit dfint https://dfint.github.io/pypi-index/
 poetry add --source=dfint df-translation-toolkit
 ```
+
+Using uv:
+
+```shell
+uv add df-translation-toolkit --index dfint=https://dfint.github.io/pypi-index/
+```
