@@ -1,4 +1,4 @@
-# Dwarf Fortress localization project Python package index
+# Organization's Python package index
 
 The index is build from the [index.yml](index.yml) file (reference: [PEP 503](https://peps.python.org/pep-0503/)).
 
